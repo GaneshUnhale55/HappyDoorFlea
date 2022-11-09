@@ -1,0 +1,65 @@
+@import "/styles/variables.scss";
+.containerWrapper {
+  background-color: rgba(21, 161, 184, 1);
+  padding: 1px;
+  display: flex;
+  position: relative;
+}
+.container {
+  background-color: rgb(255, 205, 0);
+  border-radius: 13px;
+  width: 720px;
+  height: 120px;
+  margin: 10px 154px;
+  padding: 2px;
+  text-align: center;
+  box-shadow: 0px 2px 0 2px rgba(149, 122, 12, 0.796);
+}
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 45px;
+  line-height: 109%;
+  /* or 56px */
+  text-align: start;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  margin: 5px;
+  color: #000000;
+}
+.next {
+  width: 300px;
+  height: 56.17px;
+  margin: 0%;
+  position: absolute;
+  right: 126px;
+  bottom: 110px;
+
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+.next p {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #000000;
+  // justify-content: center;
+  z-index: 100;
+  // margin-left: auto;
+  // margin-right: auto;
+  // margin-top: auto;
+  // margin-bottom: auto;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  position: absolute;
+}

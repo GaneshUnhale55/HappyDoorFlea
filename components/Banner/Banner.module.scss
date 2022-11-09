@@ -1,0 +1,16 @@
+@import "/styles/variables.scss";
+
+.container {
+  width: 60%;
+  background: rgba(21, 161, 184, 1);
+}
+.titleImgDiv {
+  margin-left: 90px;
+  //   margin-top: 10px;
+}
+.titleImgDiv2 {
+  //   margin: -20px 200px;
+  //   margin-top: -20px;
+  margin-left: 200px;
+  transform: translateY(-20px);
+}
